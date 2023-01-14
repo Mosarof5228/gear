@@ -1,0 +1,68 @@
+/* utilities or common styles */
+.container{
+    max-width:840px;
+    margin:0 auto;
+    padding: 0 50px;
+
+}
+
+/* navbar styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color:burlywood; */
+    max-width:700px;
+    width:100%;
+    margin:0 auto;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+/* top section styles */
+.top-section-container{
+    display: flex;
+    width:100%;
+    /* flex-wrap: wrap; */
+}
+.right-image img{
+    width:300px;
+    height:300px;
+    width:100%;
+    
+}
+/* logos section styles */
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+/* collections styles */
+.collection img{
+    /* width:100%;
+    height:100%;
+    overflow: hidden; */
+    overflow: hidden;
+    width:100%
+
+    
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    border:2px solid red;
+}
+.popular-collection-container{
+    background-color: pink;
+}
+.collection{
+    border:2px solid green;
+}
